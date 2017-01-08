@@ -1,0 +1,14 @@
+
+
+
+
+
+.build/uno/src/domotiktamere.cpp : src/domotiktamere.ino
+	@mkdir -p .build/uno/src
+	@echo [93msrc/domotiktamere.ino[0m
+	@/usr/local/bin/ino preproc  -o $@ $^
+
+
+all : .build/uno/src/domotiktamere.cpp
+	@true
+
