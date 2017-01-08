@@ -1,2 +1,2 @@
 # domotiktamere
-complete domotik systeme via web interface
+Systeme domotiquecomplet via interface web, arduino, rasbery.
